@@ -1,0 +1,29 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pyft232h"
+version = "1.0.0"
+authors = [
+  { name="VenkataDurgaPrasad", email="venkatadp421@gmail.com" },
+]
+maintainers = [
+    {name = "VenkataDurgaPrasad", email = "venkatadp421@gmail.com"}
+]
+description = "A SPI driver interface for ft232h with MPSSE"
+readme = "README.md"
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+    "License :: OSI Approved :: MIT License",
+]
+dependencies = [
+    "ftd2xx",
+]
+keywords = ["ft232h", "c232hm", "spi_mpsse"]
+
+[project.urls]
+Homepage = "https://github.com/VenkataDP/pyft232h"
+Issues = "https://github.com/VenkataDP/pyft232h/issues"
