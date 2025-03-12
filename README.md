@@ -18,18 +18,11 @@ ftd2xx shall be installed using below command
 2. SPI MODE 0 alone is supported
 
 
-## BUILD and INSTALL
+## INSTALL
 
-This package can be build and installed locally.
+### ***install package***
 
-### ***build the package***
-
-> python -m build
-
-### ***install package locally***
-
-Install locally
-> python setup.py install --user
+> pip install pyft232h
 
 
 ## TESTS
